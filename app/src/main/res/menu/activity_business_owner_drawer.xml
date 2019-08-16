@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Owner Account">
+        <menu>
+
+            <item
+                android:id="@+id/business_home"
+                android:icon="@drawable/ic_person"
+                android:title="Profile" />
+            <item
+                android:id="@+id/business_res"
+                android:icon="@drawable/ic_assignment"
+                android:title="My Restaurants" />
+            <item
+                android:id="@+id/business_orders"
+                android:icon="@drawable/ic_dining"
+                android:title="My Orders" />
+            <item
+                android:id="@+id/business_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
